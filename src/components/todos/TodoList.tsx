@@ -33,7 +33,7 @@ export default function TodoList() {
       <h1>Todo List</h1>
       <div>
         <input
-          className="border border-solid border-gray-500 py-2 px-4 rounded focus:border-blue-600 outline-none shadow-md shadow-blue-200"
+          className="border border-solid border-gray-500 py-2 px-4 rounded focus:border-blue-600 outline-none focus:shadow-md shadow-blue-200"
           ref={inputRef}
           type="text"
         />
