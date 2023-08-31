@@ -1,4 +1,4 @@
-import { atom } from 'jotai';
+import { atomWithReset } from 'jotai/utils';
 
 const initialData = {
   people: [
@@ -28,4 +28,4 @@ const initialData = {
   },
 };
 
-export const bigDataAtom = atom(initialData);
+export const bigDataAtom = atomWithReset(initialData);
