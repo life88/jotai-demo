@@ -1,5 +1,6 @@
 import { useAtom } from 'jotai';
 import { useState } from 'react';
+import BigData from '@/components/big-data';
 import TodoList from '@/components/todos/TodoList';
 import './App.css';
 import { countAtom } from './appStore';
@@ -32,6 +33,7 @@ function App() {
         <button onClick={() => setNum((num) => num + 1)}>num is {num}</button>
       </div>
       <TodoList></TodoList>
+      <BigData></BigData>
     </>
   );
 }
